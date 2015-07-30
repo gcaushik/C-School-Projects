@@ -1,0 +1,6 @@
+This program is my own implementation of the C library function frexp.
+
+If you can recall, the frexp function in the C library takes an integer and gives back the floating point
+representation of that integer.
+
+The goal of this program is to gain an understanding of the IEEE 754 floating point standard.
