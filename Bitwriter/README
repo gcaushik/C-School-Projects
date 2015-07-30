@@ -1,0 +1,24 @@
+This program is called bitwriter.c, which is compiled into an executable called bitwriter.
+
+The object of this program is to represent a series of integers in a text file into one whole 
+bit sequence as binary data. 
+
+The program takes two filenames as arguments, one is the text/input file which the program will read from 
+and the other is the binary/output file where the program will write  out the bit sequence. 
+
+The data in the input file is assumed to be arranged in rows of numbers, with two numbers on each line. 
+
+The first number is the number to be represented, and the number following it on the same line corresponds to the number of bits 
+that will be used to represent that number. 
+
+First both files are opened. 
+
+Then the program will parse the contents of the input file (skipping all whitespace) into unsigned integer variables (32 byte storage). 
+
+It will then write each number with the appropriate number of bits out to an 8-bit buffer and write the byte out 
+to the output file. 
+If the number of bits specified overflows the buffer then it takes a few passes of filling, writing, and refilling the buffer to write all the bits out. 
+
+At the end the remaining bits are padded with 0s to keep a one byte alignment. 
+
+Lastly, both files are closed before the program exits.
