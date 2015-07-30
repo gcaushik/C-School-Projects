@@ -15,8 +15,7 @@ First both files are opened.
 
 Then the program will parse the contents of the input file (skipping all whitespace) into unsigned integer variables (32 byte storage). 
 
-It will then write each number with the appropriate number of bits out to an 8-bit buffer and write the byte out 
-to the output file. 
+It will then write each number with the appropriate number of bits out to an 8-bit buffer and write the byte out to the output file. 
 If the number of bits specified overflows the buffer then it takes a few passes of filling, writing, and refilling the buffer to write all the bits out. 
 
 At the end the remaining bits are padded with 0s to keep a one byte alignment. 
