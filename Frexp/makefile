@@ -8,7 +8,7 @@ myfrexp: frexp.o
 # So only need to list the .h dependencies.
 
 frexp.o: 
-	$(CC) $(CFLAGS) -c frexp.cpp
+	$(CC) $(CFLAGS) -c frexp.c
 
 clean:
 	rm myfrexp *.o *~
