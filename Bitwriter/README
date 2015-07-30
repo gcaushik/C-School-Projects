@@ -6,8 +6,7 @@ The program takes two filenames as arguments, one is the text/input file which t
 
 The data in the input file is assumed to be arranged in rows of numbers, with two numbers on each line. 
 
-The first number is the number to be represented, and the number following it on the same line corresponds to the number of bits 
-that will be used to represent that number. 
+The first number is the number to be represented, and the number following it on the same line corresponds to the number of bits that will be used to represent that number. 
 
 First both files are opened. 
 
