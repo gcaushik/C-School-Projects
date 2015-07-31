@@ -1,5 +1,5 @@
 This program is my own implementation of the C math library function frexp.
 
-If you can recall, the frexp function in the C math library takes an integer and gives back the floating point representation of that integer.
+If you can recall, the frexp function in the C math library takes a number and gives back the floating point representation of that number (mantissa + exponent).
 
 The goal of this program is to gain an understanding of the IEEE 754 floating point standard.
